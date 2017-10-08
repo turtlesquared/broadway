@@ -4,46 +4,40 @@
 	color: white;
 }
 
-h2 {
-	font-size: 23;
+h1,
+h2,
+h3 {
+	font-weight: bold;
 }
 
-h1 {
+.pic h1 {
 	font-size: 70px;
-	font-weight: bold;
-	color: 
+}
+
+.pic h2 {
+	font-size: 23px;
+}
+
+.supporting h2 {
+	font-size: 32px;
+}
+
+.supporting h3 {
+	font-size: 23px;
 }
 
 body {
 	font-family: "Helvetica", sans-serif;
 	text-align: center;
-	vertical-align: middle;
-	margin-top: 8px;
-	margin-left: 8px;
-	margin-right: 8px;
-	margin-bottom: 8px;
 }
 
 nav {
 	font-size: 18px;
-}
-
-h2 {
-	font-size: 32px;
-	font-weight: bold;
-}
-
-h3 {
-	font-size: 23px;
-	font-weight: bold;
-}
-
-p {
-	font-size: 14px;
-}
-
-.white {
 	color: white;
+}
+
+.supporting p {
+	font-size: 14px;
 }
 
 .footer {
@@ -51,4 +45,8 @@ p {
 	font-size: 11px;
 	color: white;
 	text-align: left;
+}
+
+.white {
+	color: white;
 }
